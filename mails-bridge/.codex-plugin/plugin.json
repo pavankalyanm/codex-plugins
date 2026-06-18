@@ -1,7 +1,7 @@
 {
   "name": "mails-bridge",
   "version": "0.2.0",
-  "description": "Multi-account email access via IMAP/SMTP. Supports Gmail, Outlook, Yahoo, iCloud, AOL, Zoho, Fastmail, ProtonMail, and any custom IMAP/SMTP provider.",
+  "description": "Connect all your email inboxes to Codex — Gmail, Outlook, Yahoo, iCloud, or any email provider that supports IMAP/SMTP. Add unlimited accounts, and Codex auto-detects the server settings from your email address. Setup takes 2 minutes: generate an App Password, share it with Codex, done. Search across inboxes, read and reply to messages, draft emails, organize with folders and stars — all from your terminal. Works great for CI/CD digests, deploy notifications, job search tracking, and batch inbox workflows.",
   "author": {
     "name": "Pavan Kalyan",
     "url": "https://github.com/pavankalyanm"
@@ -11,8 +11,8 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Mails Bridge",
-    "shortDescription": "Multi-account email access for any provider",
-    "longDescription": "Search, read, send, draft, and organize emails across Gmail, Outlook, Yahoo, iCloud, and any custom IMAP/SMTP provider. Supports unlimited accounts with auto-detection.",
+    "shortDescription": "Connect any email inbox to Codex",
+    "longDescription": "Connect all your email inboxes to Codex — Gmail, Outlook, Yahoo, iCloud, or any email provider that supports IMAP/SMTP. Add unlimited accounts, and Codex auto-detects the server settings from your email address. Setup takes 2 minutes: generate an App Password, share it with Codex, done. Search across inboxes, read and reply to messages, draft emails, organize with folders and stars — all from your terminal.",
     "developerName": "Pavan Kalyan",
     "category": "Productivity",
     "capabilities": ["Read", "Write"]
