@@ -1,0 +1,20 @@
+{
+  "name": "mails-bridge",
+  "version": "0.2.0",
+  "description": "Multi-account email access via IMAP/SMTP. Supports Gmail, Outlook, Yahoo, iCloud, AOL, Zoho, Fastmail, ProtonMail, and any custom IMAP/SMTP provider.",
+  "author": {
+    "name": "Pavan Kalyan",
+    "url": "https://github.com/pavankalyanm"
+  },
+  "keywords": ["email", "gmail", "outlook", "yahoo", "icloud", "imap", "smtp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Mails Bridge",
+    "shortDescription": "Multi-account email access for any provider",
+    "longDescription": "Search, read, send, draft, and organize emails across Gmail, Outlook, Yahoo, iCloud, and any custom IMAP/SMTP provider. Supports unlimited accounts with auto-detection.",
+    "developerName": "Pavan Kalyan",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"]
+  }
+}

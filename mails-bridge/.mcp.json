@@ -1,0 +1,6 @@
+{
+  "mails-bridge": {
+    "command": "uv",
+    "args": ["run", "--directory", "${PLUGIN_ROOT}/server", "python", "main.py"]
+  }
+}

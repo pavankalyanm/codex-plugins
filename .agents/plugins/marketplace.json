@@ -1,0 +1,19 @@
+{
+  "name": "codex-plugins",
+  "interface": {
+    "displayName": "Codex Plugins"
+  },
+  "plugins": [
+    {
+      "name": "mails-bridge",
+      "source": {
+        "source": "local",
+        "path": "./mails-bridge"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
